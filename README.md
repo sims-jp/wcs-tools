@@ -1,2 +1,14 @@
 # wcs-tools
-WCS automation tools (code only, no secrets / 認証情報・社内資料は含まない)
+
+株式会社ワールドケアサポート（WCS）の自動化ツール置き場（公開リポジトリ）。
+
+## 方針
+
+- このリポジトリには**コードのみ**を置く。認証情報・APIキー・トークン・個人情報・社内文書は一切含めない（`.gitignore` 参照）。
+- Google Drive 等へのアクセスは Cowork の MCP コネクタ（Claude側）が担当し、コードはローカルファイル処理に限定する。
+
+## 収録ツール
+
+| パス | 内容 |
+|------|------|
+| `tools/video-auto-editor/` | 自動動画編集エンジン（ffmpeg結合・H.265エンコード） |

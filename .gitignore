@@ -1,0 +1,18 @@
+# 認証情報・秘密（絶対にcommitしない）
+credentials.json
+*.key
+*.pem
+.env
+.env.*
+token*
+
+# 実行時生成物
+node_modules/
+temp/
+output/
+logs/
+*.log
+
+# OS
+.DS_Store
+._*
