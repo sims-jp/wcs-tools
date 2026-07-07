@@ -1,0 +1,8 @@
+{
+  "name": "video-auto-editor",
+  "version": "2.0.0",
+  "description": "WCS 自動動画編集エンジン（ローカル処理専用・Drive入出力はGoogle Drive MCPが担当）",
+  "scripts": {
+    "start": "node main.js"
+  }
+}
